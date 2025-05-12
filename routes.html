@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文化路线</title>
+    <link rel="stylesheet" type="text/css" href="css/routes.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://webapi.amap.com/maps?v=2.0&key=a78a8dfd2388fd9b10fd4138984e2587"></script>
+</head>
+<body>
+    <!-- 导航条 -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">湖北大学古树数字“护照”平台</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="map.html">古树地图</a></li>
+            <li><a href="routes.html">文化路线</a></li>
+            <li><a href="passport.html">数字护照</a></li>
+            <li><a href="community.html">互动社区</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+        <div class="auth">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+    </nav>
+
+    <!-- 文化路线页面 -->
+    <div id="map" class="page">
+        <h2>湖北大学古树地图</h2>
+        <div id="map-container">
+            <!-- 地图区域 -->
+            <div id="gdmap" style="width: 100%; height: 500px;"></div>
+        </div>
+        <div id="map-sidebar">
+            <!-- 古树列表 -->
+            <div id="tree-list">
+                <div>古树1</div>
+                <div>古树2</div>
+                <div>古树3</div>
+            </div>
+            <!-- 古树时空分布热力图 -->
+            <div id="heatmap"></div>
+        </div>
+    </div>
+    
+        <script src="js/gdmap.js"></script>
+
+    <script src="js/routes.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互动社区</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/passport.css">
+</head>
+<body>
+    <!-- 导航条 -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">湖北大学古树数字“护照”平台</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="map.html">古树地图</a></li>
+            <li><a href="routes.html">文化路线</a></li>
+            <li><a href="passport.html">数字护照</a></li>
+            <li><a href="community.html">互动社区</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+        <div class="auth">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+    </nav>
+
+    <!-- 数字护照页面内容 -->
+    <h2>古树数字护照</h2>
+    <div id="passport-info">
+        <p>在这里可以查看每棵古树的详细信息，包括树种、树龄、位置等。</p>
+    </div>
+
+    <!-- 图片画廊 -->
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="img/教超185.jpg" alt="图片1">
+            <div class="tooltip" data-id="1">湖大一棵树龄100年的枫杨
+                被认定为三级古树名木
+                这是湖大第二棵完成古树鉴定的枫杨湖北日报、长江日报、楚天都市报等媒体集中报道，百岁古树已成顶流秋来冬往，岁月更迭
+                它们一直默默守护着这片土地守护着来来往往的湖大人该树位于教育超市门前的篮球场旁
+                2006年被列入古树后续资源
+                树高23米、胸（地）围323厘米、平均冠幅19米
+            </div>
+            <button class="edit-btn" data-id="1">编辑</button>
+        </div>
+        <div class="image-item">
+            <img src="img/田家炳.jpg" alt="图片2">
+            <div class="tooltip" data-id="2">田家炳教育学院南侧的枫杨</div>
+            <button class="edit-btn" data-id="2">编辑</button>
+        </div>
+        <div class="image-item">
+            <img src="img/教超待定.jpg" alt="图片3">
+            <div class="tooltip" data-id="3">注释3</div>
+            <button class="edit-btn" data-id="3">编辑</button>
+        </div>
+    </div>
+
+    <div id="passport-interactive">
+        <p>用户可以在这里与古树进行互动，如留言、点赞等。</p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

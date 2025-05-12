@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互动社区</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/community.css">
+</head>
+<body>
+    <!-- 导航条 -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">湖北大学古树数字“护照”平台</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="map.html">古树地图</a></li>
+            <li><a href="routes.html">文化路线</a></li>
+            <li><a href="passport.html">数字护照</a></li>
+            <li><a href="community.html">互动社区</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+        <div class="auth">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+    </nav>
+<!-- 互动社区内容 -->
+<div id="community" class="page">
+    <h2>互动社区</h2>
+    <div id="user-dynamics">
+        <h3>用户动态</h3>
+        <p>这里展示用户的最新动态和分享。</p>
+    </div>
+    <div id="forum">
+        <h3>论坛讨论区</h3>
+        <p>欢迎在论坛中讨论和分享关于古树的故事。</p>
+        <!-- 添加评论输入框和提交按钮 -->
+        <div id="comment-section">
+            <textarea id="comment-input" placeholder="在这里输入你的评论..."></textarea>
+            <button id="submit-comment">发表评论</button>
+        </div>
+        <!-- 用于显示评论的区域 -->
+        <div id="comments-list">
+            <h4>评论列表：</h4>
+            <ul id="comments-ul"></ul>
+        </div>
+    </div>
+</div>
+
+    <script src="js/community.js"></script>
+</body>
+</html>
